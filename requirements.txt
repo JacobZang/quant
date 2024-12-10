@@ -22,5 +22,6 @@ scikit-learn>=1.5.1
 Sphinx>=5.3.0
 sphinx_rtd_theme>=2.0.0
 sphinx-intl>=2.1.0
+xlwt
 yahooquery>=2.3.7
 yfinance>=0.1.84
