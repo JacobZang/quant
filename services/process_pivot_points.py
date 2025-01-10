@@ -18,10 +18,10 @@ def calculate_pivot_points(high, low, close):
 		"Support 3": s3
 	}
 
-high = 4503.39
-low = 4391.73
-close = 4414.7
+# high = 4503.39
+# low = 4391.73
+# close = 4414.7
 
-result = calculate_pivot_points(high, low, close)
-for key, value in result.items():
-	print(f"{key}: {value:.2f}")
+# result = calculate_pivot_points(high, low, close)
+# for key, value in result.items():
+#     print(f"{key}: {value:.2f}")

@@ -1,4 +1,6 @@
+import numpy as np
 import services.process_pivot_points as pp
+
 
 def process_data(df):
 	# pe_mean = df['市盈率'].mean()

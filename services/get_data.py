@@ -1,6 +1,7 @@
 import akshare as ak
 import pandas as pd
 
+
 def get_shenwan_data():
 	big_df = ak.index_analysis_daily_sw(symbol="二级行业", start_date="20240101", end_date="20240103")
 
