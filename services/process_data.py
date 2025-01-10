@@ -1,4 +1,6 @@
+import numpy as np
 import services.process_pivot_points as pp
+
 
 def process_data(df):
     # pe_mean = df['市盈率'].mean()
@@ -19,3 +21,5 @@ def process_data(df):
     df["第三支撑位"] = pivot_points.apply(lambda x: x["Support 3"])
 
     return df
+
+
